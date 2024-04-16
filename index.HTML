@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" href="style.CSS">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <title>Alysha's Birthday!</title> <!--- the title of the website -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <!--body
+   -->
+   <body>
+   <!--- header -->
+        <section class="header">
+		    <nav>
+			    <a href="index.html"><img src="images/Image-Logo2.png"<!--- logo yay --></a>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<div class="text-box">
+			    <h1>HAPPY 14TH BIRTHDAY!</h1> <!--- title in the main menu--->
+				<p>Hello Alysha, happy birthday!!<br> <!--- the text under the title in the menu -->
+				God bless you and I hope you will rock this year.<br><br>
+				I know this isn't much and probably doesn't count as a gift...<br>
+				but I want you to know that you are worth every second of my time :)
+				</p>
+			</div>
+	    </section>
+		
+		<!-----About Me----->
+		<section class="foods">
+		    <h1>About Me</h1>
+			<p>Saya adalah Darren Abiel Rakaditya, seorang siswa laki-laki<br>
+			beragama Kristen berusia 14 tahun dari SMP Tarakanita 5.<br>
+			Saya percaya bahwa pendidikan adalah kunci kesuksesan, dan saya<br>
+			berkomitmen untuk mengembangkan diri saya secara penuh.</p>
+			
+			<div class="row">
+			    <div class="foods-col">
+				    <h3>TikTok</h3>
+					<p>Follow saya di TikTok @ darrensdemise!</p>
+					</div>
+					<div class="foods-col">
+			        <h3>Instagram</h3>
+					<p>Follow saya di Instagram @ darrensdemise!</p>
+				</div>
+				<div class="foods-col">
+			        <h3>YouTube</h3>
+					<p>Subscribe YouTube saya @ DDid2!</p>
+				</div>
+			</div>
+		</section>
+		
+		<!-----Footer----->
+		<section class="footer">
+			<div class="icon">
+				<i class="fa fa-instagram"></i><a href="https://www.instagram.com/darrensdemise/"> darrensdemise</a>
+			</div>
+			<p>Made with <i class="fa fa-heart-o"></i>
+		</section>
+  
+  <!-----Javascript for Toggle Menu----->
+  <script>
+    
+	var navLinks = document.getElementById("navLinks")
+	
+	function showMenu(){
+	    navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	    navLinks.style.right = "-200px";
+	}
+	
+  </script>
+  
+   </body>
+   </html>
